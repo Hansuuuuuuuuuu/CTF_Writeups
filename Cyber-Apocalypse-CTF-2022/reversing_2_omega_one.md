@@ -8,6 +8,7 @@ We are given a zip file that contains `output.txt` and `omega-one`.
 Nothing happened after executing `./omega-one` so I checked the contents of output.txt:
 
 <details><summary>output.txt</summary>
+
 ```
 Crerceon
 Ezains
@@ -49,6 +50,7 @@ Seems like some alien words. I tried `strings` on omega-one and got a bigger set
 I fired up IDA (free) and loaded `omega-one`. I looked for the main function and decompiled it (aka I pressed F5), which got me the character mappings per word:
 
 <details><summary>Mappings</summary>
+
 ```
 sub_1870(qword_203018, "k", "Lendrens");
 sub_1870(qword_203018, "d", "Thauv'i");
@@ -149,6 +151,7 @@ sub_1870(qword_203018, "j", "Statars");
 
 I then threw a quick python script together (with some finnicky entries removed) to decrypt the output
 <details><summary>script</summary>
+
 ```
 mapping = {"Lendrens":"k","Thauv'i":"d","Throrqiek":"P","Inqods":"e","Tarquts":"6","Dut":"p","Krolkel":"A","Emoi":"n","Dakroith":"|","Creiqex":"*","Thomois":"Y","Groz'ens":"4","Urqek":"D","Nid":"v","Crerceon":"H","Yonphie":"#","Xits":"S","Thohul":"I","Zahrull":"W","Om'ons":"i","Kradraks":"F","Ielkul":"+","Vranix":"q","Trun":"M","Craz'ails":"h","Xoq'an":".","Ukox":"r","Evods":"N","Taxan":";","Munis":"b","Trurkror":"g","Tulphaer":"?","Ehnu":"_","Krets":"$","Grons":",","Ingell":")","Ecruns":"(","Khehlan":"m","Velzaeth":"R","Cuhix":"Q","Vinzo":"l","Istrur":"E","Zuvas":">","Honzor":"s","Ukteils":"0","Baadix":"}","Zonnu":"{", "Aarcets":"\\","Nevell":"[","Dhohmu":"!","Xan":"X","Zissat":"O","Iscax":"x","Pheilons":"t","Ghiso":"`","Scrigvil":"-","Ummuh":"B","Inphas":"u","Vurqails":"/","Vruziels":"a","Ghut'ox":":","Aahroill":"^","Gairqeik":"L","Qeks":"U","Scuvvils":"'","Ohols":"3","Som'ir":"5","Onzear":"C","Dhaesux":"2","Falnain":"w","Draalpho":" ","Yemor":"G","Thraurgok":"c","Cuzads":"1","Gagro":"Z","Zad":"=","Dhieqe":"f","Xustrek":"&","Harned":"o","Dhulgea":"V","Zimil":"y","Thretex":"z","Bravon":"8","Krugreall":"%","Vaendred":"J","Osux":"@","Ezains":"T","Mik'ed":"K","Cruz'oll":"<","Dhognot":"]","Drids":"7","Drercieks":"9","Statars":"j"}
 
