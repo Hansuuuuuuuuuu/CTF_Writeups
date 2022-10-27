@@ -6,7 +6,9 @@
 
 We are given a zip file that contains `invitation.docm`. Opening it with LibreOffice Writer shows us an invitation to a Halloween party.
 Opening the macros window (`Tools -> Macros -> Edit Macros`) and double clicking on `invitation.docm -> Document Objects -> ThisDocument` shows us an obfuscated set of VBA functions.
-Tracing the path of the code from `AutoOpen()`, it became apparent that the payload is in the `okbzichkqtto()` function, with a few layers of obfuscation in the form of other functions: `uxdufnkjlialsyp(ByVal tiyrahvbz As String)` and `wdysllqkgsbzs(strBytes)`. The long string that's being created is a bunch of character codes that are eventually translated into a base64 string through various means (such as converting pairs of characters using `Chr$`). I decided to run just the payload function `okbzichkqtto()` by creating a button object and hooking the aforementioned function on the button's `Execution action` event. I also added the following at the bottom of the function to output the payload onto a MsgBox that I can just copy from:
+Tracing the path of the code from `AutoOpen()`, it became apparent that the payload is in the `okbzichkqtto()` function, with a few layers of obfuscation in the form of other functions: `uxdufnkjlialsyp(ByVal tiyrahvbz As String)` and `wdysllqkgsbzs(strBytes)`.
+
+The long string that's being created is a bunch of character codes that are eventually translated into a base64 string through various means (such as converting pairs of characters using `Chr$`). I decided to run just the payload function `okbzichkqtto()` by creating a button object and hooking the aforementioned function on the button's `Execution action` event. I then added the following at the bottom of the function to output the payload onto a MsgBox that I can just copy from:
 
 ```
 Dim payload As Integer
