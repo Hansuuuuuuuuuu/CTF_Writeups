@@ -6,7 +6,7 @@
 
 We are given a zip file that contains a file: `hw_debug.sal`. I opened the file using `Logic 2` and got the ballpark baud rate using the `Baud rate estimate` extension, which gave me `115.741 kHz`. I then cross-referenced [Lucidar.me](https://lucidar.me/en/serialib/most-used-baud-rates-table/) for the common baud rates, where I found the closest one to be `115200`.
 
-I then applied the Async Serial analyzer, with the aforementioned baud rate. This gave me legible output on the data table, but upon switching to the terminal view, things became clearer:
+I then applied the Async Serial analyzer with the aforementioned baud rate. This gave me legible output on the data table, but upon switching to the terminal view, things became clearer:
 
 <details><summary>Terminal output</summary>
 
