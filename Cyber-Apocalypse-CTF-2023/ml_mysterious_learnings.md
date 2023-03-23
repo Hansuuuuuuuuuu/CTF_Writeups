@@ -17,7 +17,9 @@ model = keras.models.load_model('alien.h5')
 Loading the model gave this output:
 `SFRCe24wdF9zb`
 
-To know more about the model, I tried checking the summary, which contained:
+To know more about the model, I tried checking the summary using `model.summary()`
+
+which contained:
 
 ```
 Model: "19oNHJkX3RvX3V"
