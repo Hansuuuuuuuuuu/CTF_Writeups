@@ -1,11 +1,11 @@
 # Cyber Apocalypse CTF 2023
 ## Stats
 ### Team: hansu
-### Points: 1400
-### Solves: 11/74
-### Team Ranking: 
-### Number of Teams: 
-### Number of Players: 
+### Points: 8725
+### Solves: 30/74
+### Team Ranking: 444
+### Number of Teams: 6482
+### Number of Players: 12542
 ### Members
 - #### Hansuuuuuuuuuu
 
