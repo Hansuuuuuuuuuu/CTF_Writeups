@@ -27,4 +27,4 @@
 
 ### Personal Thoughts
 
-My first OSINT CTF! Definitely wanna try more of these.
+My first OSINT CTF! Definitely wanna try more of these. I'm a bit sad because I was supposed to be top 3 but they released a bonus...
