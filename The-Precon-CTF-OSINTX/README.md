@@ -1,4 +1,4 @@
-# Cyber Apocalypse CTF 2023
+# The Precon CTF OSINTX
 ## Stats
 ### Player: desutruction (Hansuuuuuuuuu)
 ### Points: 664
