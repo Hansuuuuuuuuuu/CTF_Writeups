@@ -2,8 +2,8 @@
 ## Stats
 ### Player: desutruction (Hansuuuuuuuuu)
 ### Points: 664
-### Player Ranking: 5th
-### Number of Players: 81
+### Player Ranking: 2nd
+### Number of Players: 277
 
 ### Solves
 
