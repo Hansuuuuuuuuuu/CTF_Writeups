@@ -2,8 +2,8 @@
 ## Stats
 ### Player: desutruction (Hansuuuuuuuuu)
 ### Points: 664
-### Player Ranking: 5th
-### Number of Players: 81
+### Player Ranking: 2nd
+### Number of Players: 277
 
 ### Solves
 
@@ -27,4 +27,4 @@
 
 ### Personal Thoughts
 
-My first OSINT CTF! Definitely wanna try more of these. I'm a bit sad because I was supposed to be top 3 but they released a bonus...
+My first OSINT CTF! Definitely wanna try more of these. I'm a bit sad because I was supposed to be part of the rank 1 tie but they released a bonus...
